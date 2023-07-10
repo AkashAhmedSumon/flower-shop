@@ -37,7 +37,6 @@ body{
 }
 
 header.header-section {
-    height: 100vh;
     background-color: #FCEEF1;
 }
 
@@ -115,3 +114,37 @@ ul.menu-list a {
 }
 
 /* Banner Section End */
+
+/* Offer Section Start */
+.offer-section {
+    background-color: #E554730D;
+}
+
+.offer-part {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.offer-content {
+    text-align: center;
+}
+.offer-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.offer-title span{
+    color: #E55473;
+}
+.offer-description {
+    color: #797979;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+/* Offer Section End */
