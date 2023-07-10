@@ -224,3 +224,34 @@ h1.social-title {
     border-radius: 5px;
 }
 /* Submit Section End */
+/* Footer Section Start */
+footer {
+    background-color: #111010;
+    padding: 100px 0px;
+}
+.footer-title{
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+.footer-title span{
+    color: #E55473;
+}
+.footer-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 50%;
+    margin: auto;
+    padding: 20px 0px;
+}
+.copyright{
+    font-size: 16px;
+    color: #797979;
+    text-align: center;
+}
+
+/* Footer Section End */
