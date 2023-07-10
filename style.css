@@ -7,6 +7,9 @@ body {
   font-family: "Cinzel", serif;
   font-family: "Lato", sans-serif;
 }
+.span-color{
+    color:#e55473
+}
 .btn-primary {
   background-color: #e55473;
   color: #fff;
@@ -63,9 +66,7 @@ h1.main-logo {
   text-transform: uppercase;
   font-family: "Cinzel", serif;
 }
-.main-logo span {
-  color: #e55473;
-}
+
 .menu-link {
   color: #ffffff !important;
   background-color: #e55473;
@@ -152,9 +153,6 @@ section.best-seller-area {
   text-transform: uppercase;
   font-weight: 500;
 }
-.best-seller-title span{
-    color: #e55473;
-}
 
 .seller-menu {
   display: flex;
@@ -239,9 +237,7 @@ section.best-seller-area {
   font-weight: 800;
   text-transform: uppercase;
 }
-.banner-title span {
-  color: #e55473;
-}
+
 .banner-description {
   font-size: 18px;
   line-height: 30px;
@@ -276,9 +272,7 @@ section.best-seller-area {
   font-weight: 800;
   text-transform: uppercase;
 }
-.offer-title span {
-  color: #e55473;
-}
+
 .offer-description {
   color: #797979;
   font-size: 18px;
@@ -376,9 +370,7 @@ footer {
   text-align: center;
   font-family: "Cinzel", serif;
 }
-.footer-title span {
-  color: #e55473;
-}
+
 .footer-description {
   font-size: 18px;
   font-weight: 400;
@@ -395,5 +387,4 @@ footer {
   text-align: center;
 
 }
-
 /* Footer Section End */
