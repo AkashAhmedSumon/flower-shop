@@ -4,8 +4,8 @@
 }
 /* Body Default Style Start  */
 body {
-    font-family: 'Cinzel', serif;
-    font-family: 'Lato', sans-serif;
+  font-family: "Cinzel", serif;
+  font-family: "Lato", sans-serif;
 }
 .btn-primary {
   background-color: #e55473;
@@ -61,7 +61,7 @@ ul.menu-list li {
 h1.main-logo {
   font-size: 30px;
   text-transform: uppercase;
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
 }
 .main-logo span {
   color: #e55473;
@@ -96,7 +96,7 @@ ul.menu-list a {
 /* Header Section End */
 /* Featured Section Start */
 section.featured-area {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 .featured-image {
@@ -137,6 +137,69 @@ section.featured-area {
   text-transform: capitalize;
 }
 /* Featured Section End */
+/* Best Seller Section End */
+section.best-seller-area {
+    background-color: aliceblue;
+    padding: 100px;
+}
+.btn-primary > .seller-button{
+    text-align: center;
+}
+
+.best-seller-title {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.best-seller-title span{
+    color: #e55473;
+}
+
+.seller-menu {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 30px 0px;
+}
+
+.seller-menu a {
+  color: #e55473;
+  font-size: 18px;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 01s;
+  -webkit-transition: 01s;
+  -moz-transition: 01s;
+  -ms-transition: 01s;
+  -o-transition: 01s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.seller-menu a:hover {
+  color: #fff;
+  background-color: #e55473;
+}
+
+.best-img-group {
+    display: flex;
+}
+.best-img img {
+    width: 293px;
+    height: 300px;
+    margin: 10px;
+    box-shadow: 8px 8px 13px 0px #ddd;
+}
+.seller-button {
+    text-align: center;
+    margin-top: 30px;
+}
+/* Best Seller Section End */
 /* Group Section End */
 .member-area {
   display: flex;
@@ -232,7 +295,6 @@ section.social-area {
 }
 .social-content {
   text-align: center;
-
 }
 
 h1.social-title {
