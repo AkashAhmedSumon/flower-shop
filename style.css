@@ -10,6 +10,7 @@ body{
     background-color: #E55473;
     color: #fff;
     border: none;
+    cursor: pointer;
     padding: 13px 25px;
     text-transform: capitalize;
     font-size: 16px;
@@ -181,3 +182,45 @@ h1.social-title {
 }
 
 /* Offer Section End */
+/* Submit Section End */
+.submit-group {
+    background-image: url(images/Rectangle9.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 200px 90px;
+    margin: 100px 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.submit-content{
+    text-align: center;
+}
+.submit-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.submit-description {
+    font-size: 18px;
+    color: #797979;
+    font-weight: 400;
+    margin: 10px 0px 25px;
+}
+.submit-form {
+    width: 85%;
+    margin: auto;
+}
+.submit-form input {
+    padding: 15px;
+    background: #ffffff;
+    border: 0px;
+    margin-right: 15px;
+    width: 75%;
+    border-radius: 5px;
+}
+/* Submit Section End */
