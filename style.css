@@ -116,8 +116,8 @@ ul.menu-list a {
 /* Banner Section End */
 
 /* Offer Section Start */
-.offer-section {
-    background-color: #E554730D;
+.offer-area {
+    background-color: #FCEEF1;
 }
 
 .offer-part {
@@ -147,4 +147,37 @@ ul.menu-list a {
     margin: 0 auto;
     padding: 20px 0px;
 }
+/* Offer Section End */
+/* Social Section Start */
+section.social-area {
+    padding: 100px 0px 0px;
+}
+.social-content {
+    text-align: center;
+}
+
+h1.social-title {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #272727;
+}
+.social-description {
+    color: #797979;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    width: 50%;
+    margin: auto;
+    padding: 5px 0px 30px;
+}
+.social-image {
+    display: flex;
+    justify-content: space-between;
+}
+.social-image img {
+    width: 300px;
+    height: 310px;
+}
+
 /* Offer Section End */
