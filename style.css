@@ -361,7 +361,7 @@ h1.social-title {
 /* Footer Section Start */
 footer {
   background-color: #111010;
-  padding: 100px 0px;
+  padding: 100px 0px 0px;
 }
 .footer-title {
   font-size: 48px;
@@ -387,4 +387,112 @@ footer {
   text-align: center;
 
 }
+
+/* Footer Menu Section Start */
+
+.gallery-group {
+  display: flex;
+  padding: 100px 0px;
+  justify-content: space-between;
+}
+li.gallery-addresh {
+  font-size: 18px;
+  list-style: none;
+  color: #797979;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
+.gallery-information input {
+  padding: 12px;
+  border: 0;
+  border-radius: 6px;
+  width: 58%;
+}
+.gallery-information .btn-primary {
+  padding: 10px;
+  font-size: 16px;
+}
+.gallery-title {
+  color: #FFFFFF;
+  font-size: 35px;
+  font-weight: 600;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+.gallery-blog {
+  display: flex;
+  align-items: end;
+  width: 330px;
+  margin-bottom: 20px;
+}
+.gallery-blog img {
+  width: 100px;
+  border: 1px solid #ddd;
+  padding: 2px;
+  margin-right: 10px;
+}
+
+.gallery-blog a {
+  display: block;
+  color: #e55473;
+  margin-top: 10px;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 01s;
+  -webkit-transition: 01s;
+  -moz-transition: 01s;
+  -ms-transition: 01s;
+  -o-transition: 01s;
+}
+.gallery-blog a:hover{
+  color: #FFF
+}
+.gallery-description{
+  color: #797979;
+  font-weight: 600;
+}
+
+.gallery-information li {
+  list-style: none;
+}
+.gallery-information nav a {
+  color: #e55473;
+  font-size: 18px;
+  text-transform: capitalize;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 5px 7px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  transition: 01s;
+  -webkit-transition: 01s;
+  -moz-transition: 01s;
+  -ms-transition: 01s;
+  -o-transition: 01s;
+}
+.gallery-information nav .active{
+  background-color: #e55473;
+  color: #FFFFFF;
+}
+.gallery-information nav a:hover{
+  background-color: #e55473;
+  color: #FFFFFF;
+}
+.gallery-social img {
+  width: 100px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  padding: 1px;
+}
+.gallery-social {
+  display: flex;
+}
+
+/* Footer Menu Section End */
 /* Footer Section End */
