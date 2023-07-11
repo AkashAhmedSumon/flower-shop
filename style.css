@@ -361,7 +361,7 @@ h1.social-title {
 /* Footer Section Start */
 footer {
   background-color: #111010;
-  padding: 100px 0px 0px;
+  padding: 100px 0px 100px;
 }
 .footer-title {
   font-size: 48px;
@@ -384,8 +384,8 @@ footer {
 .copyright {
   font-size: 16px;
   color: #797979;
-  text-align: center;
-
+  font-weight: 800;
+  text-transform: capitalize;
 }
 
 /* Footer Menu Section Start */
@@ -492,6 +492,17 @@ li.gallery-addresh {
 }
 .gallery-social {
   display: flex;
+}
+
+.footer-copyright, .footer {
+  font-size: 20px;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
 }
 
 /* Footer Menu Section End */
