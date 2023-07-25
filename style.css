@@ -7,8 +7,8 @@ body {
   font-family: "Cinzel", serif;
   font-family: "Lato", sans-serif;
 }
-.span-color{
-    color:#e55473
+.span-color {
+  color: #e55473;
 }
 .btn-primary {
   background-color: #e55473;
@@ -37,7 +37,7 @@ body {
 /* Body Default Style End */
 /* Header Section Start */
 .main-container {
-  width: 1260px;
+  max-width: 1260px;
   margin: auto;
 }
 
@@ -140,11 +140,11 @@ section.featured-area {
 /* Featured Section End */
 /* Best Seller Section End */
 section.best-seller-area {
-    background-color: aliceblue;
-    padding: 100px;
+  background-color: aliceblue;
+  padding: 100px;
 }
-.btn-primary > .seller-button{
-    text-align: center;
+.btn-primary > .seller-button {
+  text-align: center;
 }
 
 .best-seller-title {
@@ -185,17 +185,17 @@ section.best-seller-area {
 }
 
 .best-img-group {
-    display: flex;
+  display: flex;
 }
 .best-img img {
-    width: 293px;
-    height: 300px;
-    margin: 10px;
-    box-shadow: 8px 8px 13px 0px #ddd;
+  width: 293px;
+  height: 300px;
+  margin: 10px;
+  box-shadow: 8px 8px 13px 0px #ddd;
 }
 .seller-button {
-    text-align: center;
-    margin-top: 30px;
+  text-align: center;
+  margin-top: 30px;
 }
 /* Best Seller Section End */
 /* Group Section End */
@@ -413,7 +413,7 @@ li.gallery-addresh {
   font-size: 16px;
 }
 .gallery-title {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 35px;
   font-weight: 600;
   margin-right: 50px;
@@ -446,10 +446,10 @@ li.gallery-addresh {
   -ms-transition: 01s;
   -o-transition: 01s;
 }
-.gallery-blog a:hover{
-  color: #FFF
+.gallery-blog a:hover {
+  color: #fff;
 }
-.gallery-description{
+.gallery-description {
   color: #797979;
   font-weight: 600;
 }
@@ -476,13 +476,13 @@ li.gallery-addresh {
   -ms-transition: 01s;
   -o-transition: 01s;
 }
-.gallery-information nav .active{
+.gallery-information nav .active {
   background-color: #e55473;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.gallery-information nav a:hover{
+.gallery-information nav a:hover {
   background-color: #e55473;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .gallery-social img {
   width: 100px;
@@ -492,9 +492,11 @@ li.gallery-addresh {
 }
 .gallery-social {
   display: flex;
+  flex-wrap: wrap;
 }
 
-.footer-copyright, .footer {
+.footer-copyright,
+.footer {
   font-size: 20px;
 }
 
@@ -510,89 +512,34 @@ li.gallery-addresh {
 
 /* Responsive Design Start */
 
-.hide{
+.hide {
   display: none;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px){
- /*  .main-container{
-    width: 970px;
-  }
-  .gallery-group{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-  } */
-
-}
-
-/* 
-@media screen and (max-width: 576px){
+@media screen and (min-width: 576px) and (max-width: 767px) {
   .main-container{
-    width: 570px;
-    margin: auto;
+    max-width: 550px;
   }
-  .gallery-group,
-  .footer-copyright,
-  .gallery-social,
-  .gallery-blog
-  {
+  .footer-copyright{
     flex-direction: column;
   }
-  .gallery-information input {
-    width: 18%;
-    margin-bottom: 10px;
-    padding: 5px;
-}
-  .gallery-title{
-    font-size: 18px;
-    margin-right: 0px;
-  }
-  .gallery-blog{
-    align-items: start;
-  }
-  .gallery-group{
-    padding: 0px;
-  }
-  .gallery-social img, .gallery-blog img{
-    width: 55px;
-  }
-  
-  footer{
-    padding: 10px;
-  }
 
+  .gallery-group {
+    grid-template-columns: repeat(2,1fr);
+    
+}
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .main-container{
+    max-width: 970px;
+  }
   .footer-copyright{
-    width: 25%;
-    align-items: start;
+    flex-direction: column;
+  }
+  .gallery-group {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0rem 2rem;
   
-  }
-  .gallery-information nav a{
-    font-size: 14px;
-  }
-  .gallery-description{
-    width: 80%;
-    font-size: 12px;
-  }
-  .footer-description {
-    width: 45%;
-    margin: 0;
-    text-align: start;
-    font-size: 14px;
 }
-  .footer-title{
-    margin: 5px 0px;
-    font-size: 22px;
-  }
-  h1.footer-title, .span-color {
-    text-align: left;
-    font-size: 18px;
 }
-.copyright, li.gallery-addresh, .gallery-blog a{
-  font-size: 12px;
-}
-.gallery-information .btn-primary {
-  padding: 6px;
-  font-size: 12px;
-  border-radius: 0px;
-}
-} */
